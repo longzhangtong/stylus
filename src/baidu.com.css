@@ -1,0 +1,13 @@
+/* 首页热搜 */
+#s-hotsearch-wrapper {
+  display: none;
+}
+/* 搜索结果页热搜 */
+#content_right {
+  display: none;
+}
+/* 搜索结果列表 */
+#content_left > div:has(.c-gap-left),
+#content_left > div:has(.ec-tuiguang) {
+  display: none;
+}
